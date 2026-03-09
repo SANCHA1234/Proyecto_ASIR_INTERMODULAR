@@ -35,24 +35,24 @@ Máquinas pfsense
 
 ### Objetivo del Proyecto: 
 
-Nuestro proyecto intermodular tiene como objetivo el diseño, desarrollo, creación e implementación de una página web de búsqueda de empleo fácil y eficaz. La página web será desplegada sobre la infraestructura de servidores y clientes previamente comentada (configurada), servirá como punto de encuentro entre empleados y empleadores (profesionales de Recursos Humanos - RRHH) que necesitan captar talento.
+Nuestro proyecto intermodular tiene como objetivo el diseño, desarrollo, creación e implementación de una página web de pujas. La página web será desplegada sobre la infraestructura de servidores y clientes previamente comentada (configurada), servirá como punto de encuentro entre compradores y vendedores, que quieran poner a la venta piezas de componetentes o equipos.
 
 ### Roles de Usuario: 
 
 La plataforma distinguirá entre dos tipos de usuarios:
 
-- Candidato (Empleado): Podrá explorar ofertas de trabajo disponibles, postularse a las que se ajusten a su perfil y gestionar su cuenta.
-- Empleador (RRHH): Tendrá la capacidad de crear y publicar ofertas de empleo, buscar perfiles específicos y gestionar las ofertas recibidas.
+- Comprador: Podrá participar en número ilimitado de subastas disponibles, sin límite de dinero y gestionar su cuenta.
+- Vendedor: Tendrá la capacidad de crear pujas ( el número de pujas creadas será ilimitado), desde el precio mínimo que el vendedor quiera.
 
 ### Funcionalidades Principales:
 
 - Gestión de Cuentas y Autenticación: Sistema de registro seguro que requerirá confirmación mediante correo electrónico.
 
-- Perfiles Dinámicos: Los usuarios podrán editar y actualizar su información personal (nombre de usuario, edad, experiencia, etc.) en cualquier momento.
+- Perfiles Dinámicos: Los usuarios podrán participar en subastas y poner sus productos a la venta en subastas, cuando ellos quieran.
 
-- Publicación y Postulación: Flujo completo de creación de ofertas por parte de RRHH y un sistema intuitivo de postulación para los candidatos.
+- Publicación y Postulación: Flujo completo para poder participar en subastas y vender.
 
-- Arquitectura y Base de Datos: Debido a la variedad y constante cambio de los datos de los usuarios, el proyecto utilizará una base de datos NoSQL (mongoDB). Esto proporcionará la flexibilidad y escalabilidad necesarias para gestionar las actualizaciones constantes de los perfiles sin las restricciones de una base de datos SQL.
+- Arquitectura y Base de Datos: Debido a la variedad y constante cambio de los datos de las subastas , el proyecto utilizará una base de datos NoSQL (mongoDB). Esto proporcionará la flexibilidad y escalabilidad necesarias para gestionar las actualizaciones constantes de los precios sin las restricciones de una base de datos SQL.
 
 
 
