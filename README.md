@@ -1,2 +1,2 @@
 # Proyecto_ASIR_INTERMODULAR
-Sabncha payo supremo
+Grupo 4: Gerardo Bravo, Jorge La Osa y Alejandro Gonzalez 
